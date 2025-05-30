@@ -24,6 +24,8 @@ MemoryCaptures/
 *.opendb
 *.VC.db
 
+logs/
+*.log
 
 
 git rm -r --cached Library/

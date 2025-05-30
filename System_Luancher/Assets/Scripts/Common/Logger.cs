@@ -6,7 +6,7 @@ public static class Logger
     [Conditional("DEV_VER")]
     public static void Log(object msg)
     {
-        UnityEngine.Debug.LogFormat("[{0}] {1}", System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
+        UnityEngine.Debug.LogFormat("[{0}] {1}", System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"), msg);
     }
 
     [Conditional("DEV_VER")]
